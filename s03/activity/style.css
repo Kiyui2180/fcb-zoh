@@ -1,0 +1,107 @@
+/* style.css */
+
+/* 1-4: global reset, external css, fonts */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, "Times New Roman", sans-serif;
+}
+
+/* 5: nav */
+nav {
+  padding: 16px;
+  margin-bottom: 40px;
+  background: #889bda;
+  text-align: center;
+}
+nav a {
+  text-decoration: none;
+  color: #6765e2;
+}
+.nav-link {
+  margin: 0 12px;
+  color: #4d305a;
+}
+
+/* 8: anchor tags */
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* 9: landing div */
+#landing {
+  text-align: center;
+}
+
+/* 10-11: profile id */
+#profile {
+  width: 300px;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 40px;
+}
+
+/* 12-15: name and title */
+#name {
+  margin: 20px 0;
+}
+#title {
+  margin: 20px 0;
+}
+
+/* 16-18: intro */
+#intro {
+  width: 200px;
+  margin: 20px auto;
+}
+#tools {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* 19-22: tools */
+#tools-title {
+  margin-bottom: 20px;
+}
+.tools-img {
+  width: 100px;
+  height: 100px;
+  margin: 0 10px;
+}
+
+/* 23-27: projects */
+#projects {
+  text-align: center;
+}
+.card {
+  background: rgba(161, 183, 224, 0.7);
+  height: 400px;
+  width: 600px;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 40px;
+}
+.card-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+/* 28: footer */
+#contact {
+  text-align: center;
+  padding: 16px;
+  margin-top: 40px;
+  background: #889bda;
+}
+
+/* my additional styles */
+body {
+  background-image: url(https://img.youtube.com/vi/p-65hw01vgw/maxresdefault.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
